@@ -15,8 +15,8 @@ export default function App(){
       data={products}
       keyExtractor={(item) => item.id.toString()}
       renderItem={({item}) => (
-        // products.json ใช้คีย์ "image " (มีช่องว่างท้ายชื่อ) จึงต้องอ้างแบบนี้ เพราะห้ามแก้ไฟล์ json
-        <Card name={item.name} image={item['image ']} price={item.price} />
+        // products.json ใช้คีย์ "image " (มีช่องว่างท้ายชื่อ) จึงต้องอ้างแบบนี้
+        <Card name={item.name} image={item['image ']} price={item.price} quantity={item.quantity} category={item.category} />
       )}
       />
     </View>

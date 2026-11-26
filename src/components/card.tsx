@@ -3,19 +3,23 @@ import { Image, StyleSheet, Text, View } from 'react-native'
 type CardProps = {
     name: string,
     image: string,
-    price: number
+    price: number,
+    quantity: number,
+    category: string
 }
 
 // แปลงตัวเลขเป็นข้อความที่มีจุลภาคคั่นหลักพัน เช่น 18500 -> "18,500"
 const formatPrice = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 
 // component การ์ดสินค้า 1 ใบ: รูปซ้าย ชื่อกลาง ราคาขวา
-export default function Card({ name, image, price }: CardProps) {
+export default function Card({ name, image, price, quantity, category }: CardProps) {
     return (
         <View style={cardStyle.box}>
             <Image source={{ uri: image }} style={cardStyle.image} resizeMode="cover" />
             <View style={cardStyle.info}>
                 <Text style={cardStyle.name}>{name}</Text>
+                <Text style={cardStyle.detail}>หมวดหมู่: {category}</Text>
+                <Text style={cardStyle.detail}>จำนวน: {quantity}</Text>
             </View>
             <Text style={cardStyle.price}>฿{formatPrice(price)}</Text>
         </View>
@@ -47,6 +51,10 @@ const cardStyle = StyleSheet.create({
     name: {
         fontSize: 16,
         color: "#f5f5f5"
+    },
+    detail: {
+        fontSize: 13,
+        color: "#aaa"
     },
     price: {
         fontSize: 16,

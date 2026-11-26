@@ -3,60 +3,80 @@
         "id": 1,
         "name": "cpu",
         "image ": "https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/4270752-amd-ryzen-9000-series-x3d2/4270752-amd-ryzen-9000-series-x3d2-product-1.jpg",
-        "price": 34090
+        "price": 34090,
+        "quantity": 10,
+        "category": "หน่วยประมวลผล"
     },
     {
         "id": 2,
         "name": "gpu",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-KMeuK-e7l0igyr4JzX34MB7BeqwKTQlaNdwi-QZDzA&s=10",
-        "price": 89900
+        "price": 89900,
+        "quantity": 10,
+        "category": "การ์ดจอ"
     },
     {
         "id": 3,
         "name": "ram",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFRACMZpXyvaNKGNMsnDzIxm6P58bXqJe0QfPG4SNkZJ1fwA4sKPIP0g&s=10",
-        "price": 18500
+        "price": 18500,
+        "quantity": 10,
+        "category": "หน่วยความจำ"
     },
     {
         "id": 4,
         "name": "ssd",
         "image ": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg/330px-Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg",
-        "price": 3290
+        "price": 3290,
+        "quantity": 10,
+        "category": "อุปกรณ์จัดเก็บข้อมูล"
     },
     {
         "id": 5,
         "name": "motherboard",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34m04dFpst_BOb9gK3MZPfpyC9g2_J_ISxNga9ie2Nq0NF6g3q-1fOvs&s=10",
-        "price": 3490
+        "price": 3490,
+        "quantity": 10,
+        "category": "เมนบอร์ด"
     },
     {
         "id": 6,
         "name": "psu",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEASxbFTH7nLF43cGvsdxhPbeLmB7GBxws0UvoRGRql9bzZchuKzCGuKzw&s=10",
-        "price": 1290
+        "price": 1290,
+        "quantity": 10,
+        "category": "พาวเวอร์ซัพพลาย"
     },
     {
         "id": 7,
         "name": "monitor",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUZTppnI8RDz5f9upqvYxSUjgsrE36c3Jdu2HVluFpg&s=10",
-        "price": 24000
+        "price": 24000,
+        "quantity": 10,
+        "category": "จอภาพ"
     },
     {
         "id": 8,
         "name": "keyboard",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAEFKDcQwOGfax3QRQjMrHcBK9wGJi3VVG6p8Nab_fY29mrxZtp9A1Cn4&s=10",
-        "price": 7500
+        "price": 7500,
+        "quantity": 10,
+        "category": "อุปกรณ์ต่อพ่วง"
     },
     {
         "id": 9,
         "name": "mouse",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVPrNHZ8teQdB5t-ktl-0PD_QxfLE55buuuKvtJUHqCQ&s=10",
-        "price": 5290
+        "price": 5290,
+        "quantity": 10,
+        "category": "อุปกรณ์ต่อพ่วง"
     },
     {
         "id": 10,
         "name": "case",
         "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7RBJIDwpRq_C_NqJeI6Q4VQDQWGrP3DE4BkslhDtB5dv43KXtbHtL-Qv&s=10",
-        "price": 4000
+        "price": 4000,
+        "quantity": 10,
+        "category": "เคส"
     }
 ]
