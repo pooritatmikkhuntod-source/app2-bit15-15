@@ -12,18 +12,12 @@ export default function App(){
       <FlatList
       style={styles.list}
       contentContainerStyle={styles.listContent}
-      // ข้อมูลที่จะเรนเดอร์
       data={products}
-
-      // คีย์หลัก
       keyExtractor={(item) => item.id.toString()}
-
-      // component ที่จะแสดงผล
       renderItem={({item}) => (
         // products.json ใช้คีย์ "image " (มีช่องว่างท้ายชื่อ) จึงต้องอ้างแบบนี้ เพราะห้ามแก้ไฟล์ json
         <Card name={item.name} image={item['image ']} price={item.price} />
       )}
-
       />
     </View>
   )
