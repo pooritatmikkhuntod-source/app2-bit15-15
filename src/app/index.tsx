@@ -1,5 +1,4 @@
-import { FlatList, StyleSheet, Text } from 'react-native'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import { FlatList, StyleSheet, Text, View } from 'react-native'
 
 import products from '../products.json'
 
@@ -7,7 +6,7 @@ import Card from '@/components/card'
 
 export default function App(){
   return(
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <Text style={styles.title}>รายการสินค้า</Text>
 
       <FlatList
@@ -26,7 +25,7 @@ export default function App(){
       )}
 
       />
-    </SafeAreaView>
+    </View>
   )
 }
 
